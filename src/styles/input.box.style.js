@@ -6,11 +6,10 @@ export const styles = StyleSheet.create({
   InputBox: {
     width: '100%',
     height: 50,
-    borderWidth:1,
-    backgroundColor: COLORS.white,
-    borderColor: COLORS.dark_gray,
+    backgroundColor: COLORS.whitesmoke,
     borderRadius: 10,
     padding: 14,
+    marginBottom:15,
   },
   textLabel:{
   color: COLORS.dark_gray,

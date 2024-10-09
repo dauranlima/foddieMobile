@@ -1,11 +1,10 @@
-import Login from "./src/screens/login";
-import Registro from "./src/screens/registro";
+import MyStack from "./src/routes.js";
+
 
 export default function App() {
   return (
     <>
-    {/* <Login/> */}
-    <Registro/>
+      <MyStack/>
     </>
   );
 }

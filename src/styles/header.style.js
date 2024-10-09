@@ -6,7 +6,6 @@ export const styles = StyleSheet.create({
   logo: {
     width: 170,
     height: 50,
-    borderWidth:10
   },
   title:{
     color: COLORS.dark_gray,
@@ -15,7 +14,6 @@ export const styles = StyleSheet.create({
   },
   header:{
     width:'100%',
-    marginTop: 80,
     alignItems: 'center',
 
   }

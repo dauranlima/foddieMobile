@@ -6,24 +6,28 @@ export const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 40,
     paddingRight: 40,
-    paddingTop:110,
-    backgroundColor: COLORS.white
+    justifyContent: 'center',
+    backgroundColor: COLORS.white,
   },
   form:{
     display:'flex',
-    gap:15,
+    gap:1,
     width: '100%',
-    marginBottom: 15,
   },
   formGroup:{
-    marginTop:50,
-    width: '100%',
+    marginTop:25,
+    width: '98',
   },
-  footerText:{
-    color: '#2B79BB',
-    fontSize: 16,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginTop: 15,
-  }
-});
+flexContainer:{
+  flexDirection: 'row',
+},
+flexItem1:{
+  width: '69%',
+  marginRight:2,
+  
+},
+flexItem2:{
+  width: '30%',
+}
+
+})

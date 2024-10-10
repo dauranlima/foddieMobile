@@ -186,7 +186,7 @@ export const restaurante = {
     cardapio: [
         {
             idCategoria: 1,
-            categoria: "Ofertas",
+            categoria: "Ofertas / Promoções",
             itens: [
                 {
                     idProduto: 1,
@@ -206,7 +206,7 @@ export const restaurante = {
         },
         {
             idCategoria: 2,
-            categoria: "Mais Pedidos",
+            categoria: "Os Top 10 Mais Pedidos",
             itens: [
                 {
                     idProduto: 3,

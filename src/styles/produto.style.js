@@ -14,6 +14,15 @@ export const styles = StyleSheet.create({
     height:80,
     borderRadius:15,
   },
+  delete:{
+    width:28,
+    height:28,
+    borderRadius:15,
+  },  
+  Btndelete:{
+    alignItems:'center',
+    marginTop:5,
+  },
   texts:{
     flex:1,
     marginLeft:10,
@@ -22,7 +31,6 @@ export const styles = StyleSheet.create({
     fontSize:FONT_SIZE.md,
     fontWeight:'bold',
     color:COLORS.dark_gray,
-
   },
   desc:{
     fontSize:FONT_SIZE.sm,

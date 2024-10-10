@@ -1,7 +1,8 @@
-import MyStack from "./src/routes.js";
-import RoutesAuth from "./src/tab.routes.js";
+import MyStack from "./src/router/routes";
+import RoutesAuth from "./src/router/routesAuth.routes";
 
-const isUserAuth = false;
+
+const isUserAuth = true;
 
 export default function App() {
   

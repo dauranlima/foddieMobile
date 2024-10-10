@@ -7,10 +7,11 @@ export const styles = StyleSheet.create({
     flex:1,
     flexDirection:'row',
     marginBottom:10,
+    padding:10,
     backgroundColor: COLORS.white,
   },
   imgContainer:{
-paddingRight:10,
+  paddingRight:10,
   },
   image:{
 
@@ -20,7 +21,7 @@ paddingRight:10,
   },
   emptyList:{
     flexGrow:1,
-    marginTop:50,
+    marginTop:20,
   },
   empty:{
     flex:1,

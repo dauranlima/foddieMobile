@@ -4,7 +4,7 @@ import { restaurante } from "../constants/dados";
 import icons from "../constants/icons";
 import Produto from "../components/produto";
 
-export default function Menu() {
+export default function Menu(props) {
 	return (
 		<View style={styles.container}>
 			<View style={styles.containerFoto}>
@@ -14,7 +14,7 @@ export default function Menu() {
 					source={restaurante.foto}
 				/>
 			</View>
-			<TouchableOpacity style={styles.containerBack}>
+			<TouchableOpacity style={styles.containerBack} onPress={props.navigation.goBack}>
 				<Image source={icons.back2} style={styles.icon} />
 			</TouchableOpacity>
 			<View style={styles.header}>

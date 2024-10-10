@@ -1,11 +1,16 @@
 import { View, Text, FlatList, Image } from 'react-native'
-import { styles } from '../styles/orders.style'
+import { styles } from '../styles/tab-orders.style'
 import { pedidos } from '../constants/dados'
 import icons from '../constants/icons'
 import OrderItem from '../components/orderItem'
 
 
-export default function Orders() {
+export default function TabOrders(props) {
+
+  function handleOrderDetails(){
+    props.navigation.navigate('OrderDetails')
+  }
+
   return (
     <View style={styles.container}>
       <FlatList 
@@ -20,6 +25,7 @@ export default function Orders() {
           price={item.vl_total}
           order_date={item.dt_pedido}
           status={item.status}
+          ClickOrderDetails={handleOrderDetails}
           />
         )
       }}

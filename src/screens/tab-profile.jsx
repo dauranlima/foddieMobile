@@ -1,8 +1,8 @@
 import { View, Text, TouchableOpacity, Image } from 'react-native'
-import { styles } from '../styles/profile.style'
+import { styles } from '../styles/tab-profile.style'
 import icons from '../constants/icons'
 
-export default function Profile() {
+export default function TabProfile() {
   return (
       <View  style={styles.container}>
     <TouchableOpacity   style={[styles.item,styles.borderTop]}>

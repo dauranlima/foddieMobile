@@ -1,21 +1,19 @@
-import { Image } from "react-native";
-import Home from "./screens/home";
-import Favoritos from "./screens/favoritos";
-import Orders from "./screens/orders";
-import Profile from "./screens/profile";
-import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import icons from "./constants/icons";
+import { Image } from "react-native";
+import TabHome from "../screens/tab-home";
+import TabFavoritos from "../screens/tab-favoritos";
+import TabOrders from "../screens/tab-orders";
+import TabProfile from "../screens/tab-profile";
+import icons from "../constants/icons";
 
 const Tab = createBottomTabNavigator();
 
-export default function RoutesAuth() {
-	return (
-		<NavigationContainer>
-			<Tab.Navigator screenOptions={{ tabBarShowLabel: false }}>
+export default function Main() {
+  return (
+    <Tab.Navigator screenOptions={{ tabBarShowLabel: false }}>
 				<Tab.Screen
 					name="Home"
-					component={Home}
+					component={TabHome}
 					options={{
 						headerShown: false,
 						tabBarIcon: ({ focused }) => {
@@ -31,7 +29,7 @@ export default function RoutesAuth() {
 				/>
 				<Tab.Screen
 					name="Orders"
-					component={Orders}
+					component={TabOrders}
 					options={{
 						headerShown: true,
 						headerTitleAlign: "center",
@@ -50,7 +48,7 @@ export default function RoutesAuth() {
 				/>
 				<Tab.Screen
 					name="Favoritos"
-					component={Favoritos}
+					component={TabFavoritos}
 					options={{
 						headerShown: true,
 						headerTitleAlign: "center",
@@ -68,7 +66,7 @@ export default function RoutesAuth() {
 				/>
 				<Tab.Screen
 					name="Profile"
-					component={Profile}
+					component={TabProfile}
 					options={{
 						headerShown: true,
 						headerTitleAlign: "center",
@@ -86,6 +84,6 @@ export default function RoutesAuth() {
 					}}
 				/>
 			</Tab.Navigator>
-		</NavigationContainer>
-	);
+
+  )
 }

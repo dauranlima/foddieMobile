@@ -3,6 +3,7 @@ import back from "../assets/back.png";
 import remove from "../assets/delete.png";
 import abaFavorito from '../assets/aba-favorito.png';
 import abaHome from '../assets/aba-home.png'
+import abaPerfil from '../assets/aba-perfil.png'
 import abaPedidos from '../assets/aba-pedidos.png'
 import banner1 from '../assets/banner1.png'
 import banner2 from '../assets/banner2.png'
@@ -33,7 +34,7 @@ import empty from '../assets/empty.png'
 export default {
   
   logo, cart, abaFavorito,abaHome,back,remove,empty,
-  abaPedidos,banner1,banner2,banner2,cart,
+  abaPedidos,banner1,banner2,banner2,cart,abaPerfil,
   catburguer,catFritas,catPizza,catSobremesa,
   catSuco,endereco,expandir,favoritoFull,favoritoFull2,
   favorito,fotoRest,location,logout,

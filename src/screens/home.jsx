@@ -1,4 +1,4 @@
-import { View, Text, StatusBar, Image, ScrollView } from 'react-native'
+import { View, Text, StatusBar, Image, ScrollView, TouchableOpacity } from 'react-native'
 import { styles } from '../styles/home.style'
 import icons from '../constants/icons'
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -19,7 +19,9 @@ export default function Home() {
       <StatusBar backgroundColor={'#000'}/>
     <View style={styles.headerBar} >
       <Image source={icons.logo}style={styles.logo}/>
+      <TouchableOpacity>
       <Image source={icons.cart}style={styles.cart}/>
+      </TouchableOpacity>
     </View>
     <View>
       <InputBox style={styles.search} onChangeText={(text)=> setSearch(text)} value={search} placeholder="O que vamos pedir hoje?"/>

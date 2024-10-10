@@ -18,8 +18,8 @@ export const styles = StyleSheet.create({
     padding:10,
   },
   icon:{
-    width:50,
-    height:50,
+    width:30,
+    height:30,
   },
   name:{
     color: COLORS.dark_gray,

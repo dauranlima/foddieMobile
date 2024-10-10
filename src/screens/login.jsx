@@ -5,12 +5,17 @@ import InputBox from '../components/InputBox'
 import Button from '../components/button'
 import { useState } from 'react'
 
+
 export default function Login(props) {
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [isvalid,setIsvalid] = useState(false)
 
+
+function handleLogin() {
+
+}
 
 function handleLogin() {
     if(email === 'Dauran' && password === '123') {

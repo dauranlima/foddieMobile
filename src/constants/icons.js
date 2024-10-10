@@ -29,11 +29,12 @@ import produtoPizza from '../assets/produto-pizza.png'
 import rest1 from '../assets/restaurante1.png'
 import rest2 from '../assets/restaurante2.png'
 import empty from '../assets/empty.png'
+import back2 from '../assets/back2.png'
 
 
 export default {
   
-  logo, cart, abaFavorito,abaHome,back,remove,empty,
+  logo, cart, abaFavorito,abaHome,back,remove,empty,back2,
   abaPedidos,banner1,banner2,banner2,cart,abaPerfil,
   catburguer,catFritas,catPizza,catSobremesa,
   catSuco,endereco,expandir,favoritoFull,favoritoFull2,

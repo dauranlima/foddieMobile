@@ -166,4 +166,56 @@ export const restaurantes = [
             vl_total: 112,
             logotipo: require("../assets/restaurante2.png")
         }
+        
 ];
+export const restaurante = {
+    id: 1,
+    nome: "Ponto da Esfirra",
+    endereco: "Rua Paraná, 512 - Centro - Cascavel - PR",
+    logotipo: require("../assets/restaurante2.png"),
+    foto: require("../assets/foto-restaurante.png"),
+    vlEntrega: 5.00,
+    isFavorito: true,
+    cardapio: [
+        {
+            idCategoria: 1,
+            categoria: "Ofertas",
+            itens: [
+                {
+                    idProduto: 1,
+                    nome: "Pizza Calabresa",
+                    descricao: "Massa artesanal, mussarela e calabresa",
+                    valor: 30.00,
+                    foto: require("../assets/produto-pizza.png")
+                },
+                {
+                    idProduto: 2,
+                    nome: "Coca-Cola Lata",
+                    descricao: "Coca-Cola lata de 300ml trincando de gelada",
+                    valor: 5.00,
+                    foto: require("../assets/produto-coca.png")
+                }
+            ]
+        },
+        {
+            idCategoria: 2,
+            categoria: "Mais Pedidos",
+            itens: [
+                {
+                    idProduto: 3,
+                    nome: "Pizza Peperonni Picante",
+                    descricao: "Massa artesanal, mussarela e Peperoni",
+                    valor: 35.00,
+                    foto: require("../assets/produto-pizza.png")
+                },
+                {
+                    idProduto: 4,
+                    nome: "Guaraná Antactica",
+                    descricao: "Guaraná Antactica lata de 300ml trincando de gelada",
+                    valor: 5.00,
+                    foto: require("../assets/produto-guarana.png")
+                }
+            ]
+        }
+    ]
+};
